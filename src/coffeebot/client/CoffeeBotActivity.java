@@ -21,13 +21,7 @@ public class CoffeeBotActivity extends Activity {
 	    //final String SERVER_EMAIL = "mailto:seraph.lesabre@live.com";
 		//String order;
 		
-		final Button sendButton = (Button) findViewById(R.id.sendOrderButton);
-		final EditText orderText = (EditText) findViewById(R.id.orderEntry);
-		sendButton.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				sendOrder(orderText.getText().toString());
-			}
-		});
+		
     }
     
     public void sendOrder(String order) {

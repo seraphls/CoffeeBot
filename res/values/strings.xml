@@ -3,5 +3,9 @@
 
     <string name="hello">Hello World, CoffeeBotActivity!</string>
     <string name="app_name">CoffeeBot</string>
+    <string name="popular_button_text">Popular Drinks</string>
+    <string name="favorite_drinks_text">My Favorites</string>
+    <string name="build_drink_text">Create Drink</string>
+    <string name="server_email">mailto:seraph.lesabre@live.com</string>
 
 </resources>

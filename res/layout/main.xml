@@ -4,25 +4,22 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
-
-    <EditText
-        android:id="@+id/orderEntry"
+    <Button
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10" >
-
-        <requestFocus />
-    </EditText>
+        android:text="@string/popular_button_text" />
 
     <Button
-        android:id="@+id/sendOrderButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send Order"
-        android:onClick = "sendOrder" />
+        android:text="@string/favorite_drinks_text" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/build_drink_text" />
 
 </LinearLayout>
