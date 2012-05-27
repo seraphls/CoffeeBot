@@ -17,11 +17,7 @@ public class CoffeeBotActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-    
-	    //final String SERVER_EMAIL = "mailto:seraph.lesabre@live.com";
-		//String order;
-		
-		
+    		
     }
     
     public void sendOrder(String order) {
